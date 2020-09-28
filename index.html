@@ -6,13 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Guide</title>
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    @media (min-width:1024px) {
-      .top-navbar {
-        display: inline-flex !important;
-      }
-    }
-  </style>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -144,13 +137,16 @@
           class='text-gray-900 text-2xl md:text-2xlg lg:text-4xl xl:text-4xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold'>
           OVERVIEW</h5>
         <p
-          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
+          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
           The PIT (Personal Income Tax) portal is designed to automate payment and filing of PAYE and Withholding
-          taxes.
-          Taxpayers get to see their tax history and can print receipt from this site.<br> This guide will walk you
-          through the steps to use the PIT portal.<br>
-          A document template for download is provided; taxpayers can choose<br> convenient payment option of their
+          taxes. Taxpayers get to see their tax history and can print receipt from this site.
+        <p
+          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
+          This guide will walk
+          you through the steps to use the PIT portal.
+          A document template for download is provided; taxpayers can choose convenient payment option of their
           choice.
+        </p>
         </p>
       </div>
       <!-- application architecture  -->
@@ -159,11 +155,11 @@
           class='text-gray-900 text-2xl md:text-2xlg lg:text-4xl xl:text-4xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold'>
           APPLICATION STRUCTURE</h5>
         <p
-          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
+          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
           The diagram below provides a visual representation of the PIT portal. This is to help understand the
           activities that can be carried out on the portal.
         </p>
-        <img src="/icons/tax manager.svg" alt="" class='mt-4 lg:mt-10''>
+        <img src="tax manager.png" alt="" class='mt-4 lg:mt-10'>
       </div>
 
       <!-- modules  -->
@@ -179,31 +175,30 @@
             class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
             <a href="onboarding.html" class='text-blue-600'>How to Onboard</a>: <span
               class='font-sans font-semibold lg:text-2xl'>Enter
-              kgtin
+              KGTIN
               and set
               password</span>
           </li>
           <li
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
             <a href="upload_view_annual.html" class='text-blue-600'>Upload Annual PAYE Returns</a> <span
-              class='font-sans font-semibold lg:text-2xl'>: Enter and save data in the correct format, upload and view
-              annual PAYE returns</span></li>
+              class='font-sans font-semibold lg:text-2xl'>: Enter and save data in the correct
+              format,upload and view annual PAYE returns</span></li>
           <li
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
-            <a href="upload_view_monthly.html" class='text-blue-600'>Upload Monthly schedule</a> <span
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
+            <a href="upload_view_monthly.html" class='text-blue-600'>Upload Monthly Schedule</a> <span
               class='font-sans font-semibold lg:text-2xl'>: Enter and save data in the correct format, upload and view
               monthly schedule</span></li>
           <li
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
-            <a href="upload_view_withholding.html" class='text-blue-600'>Upload/view withholding tax schedule</a> <span
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
+            <a href="upload_view_withholding.html" class='text-blue-600'>Upload/View Withholding Tax Schedule</a> <span
               class='font-sans font-semibold lg:text-2xl'>: Enter and save data in the correct format, upload and view
               withholding tax schedule.</span></li>
           <li
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
-            <a href="payment_options.html" class='text-blue-600'>Payment Options</a> <span
-              class='font-sans font-semibold lg:text-2xl'>:Choose
-              payment option most suitable for
-              you</span> </li>
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
+            <a href="payment_options.html" class='text-blue-600'>Make Payment</a> <span
+              class='font-sans font-semibold lg:text-2xl'>: Choose the payment option most suitable for
+              you and proceed to make payment</span> </li>
         </ol>
 
       </div>

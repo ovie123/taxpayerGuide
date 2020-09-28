@@ -6,13 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Guide</title>
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    @media (min-width:1024px) {
-      .top-navbar {
-        display: inline-flex !important;
-      }
-    }
-  </style>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
@@ -144,36 +137,36 @@
           class='text-gray-900 text-2xl md:text-2xlg lg:text-4xl xl:text-4xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold'>
           ONBOARDING</h5>
         <p
-          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium'>
-          The basic requirement for onboarding on this app is the kgtin (Tax Identification Number),
-          the home page provides different options for users and helps users without kgtin obtain one.
+          class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-4 md:pt:6 lg:pt:8 xl:pt:10 font-medium text-justify'>
+          The basic requirement for onboarding on this app is the KGTIN (Tax Identification Number), the home page
+          provides different options for users and helps users without KGTIN obtain one.
 
         </p>
         <div class='container mx-auto'>
           <!-- sign up  -->
           <div class='pt-5 px-8'>
             <h5
-              class='text-gray-900 text-lg md:text-2xlg lg:text-2xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold leading-12'>
-              <a href="#" class='text-blue-600'>Sign up</a><span>: For new users who have not onboarded
-                before.</span>
+              class='text-gray-900 text-lg md:text-2xlg lg:text-2xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold leading-12 text-justify'>
+              <a href="#" class='text-blue-600'>Sign up</a><span class='text-justify'>: For new users who have not
+                onboarded before.</span>
             </h5>
             <!-- individual kg reg  -->
 
             <h5
               class='text-gray-900 text-lg md:text-2xlg lg:text-2xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold leading-12'>
-              <a href="#" class='text-blue-600'>Individual KGTIN registration</a><span>: For individuals without
-                kgtin.</span>
+              <a href="#" class='text-blue-600'>Individual KGTIN registration</a><span class='text-justify'>: For
+                individuals without
+                KGTIN.</span>
             </h5>
-            <!-- non individual without kgtin  -->
+            <!-- non individual without KGTIN  -->
             <h5
               class='text-gray-900 text-lg md:text-2xlg lg:text-2xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold leading-12'>
-              <a href="#" class='text-blue-600'>Non Individual KGTIN registration</a><span>: For individuals without
-                kgtin.</span>
+              <a href="#" class='text-blue-600'>Non Individual KGTIN registration</a><span class='text-justify'>: For
+                individuals without
+                KGTIN.</span>
             </h5>
 
           </div>
-
-
         </div>
 
         <div class='pt-4 lg:px-8 px-6'>
@@ -181,23 +174,25 @@
             class='text-gray-900 text-2xl md:text-2xlg lg:text-4xl xl:text-4xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold text-blue-600'>
             Sign Up</h5>
           <p
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7'>
-            If you have your tin already click on SIGNUP which is at the top of the home page. Provide your kgtin, fill
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7 text-justify leading-normal'>
+            If you have your tin already, click on SIGNUP which is at the top of the home page. Provide your KGTIN, fill
             in the Turing, accept terms and condition then CLICK SIGN UP. The tin number provided will be
-            verified. A token will be sent via mail/sms to the mail and phone number connected to the tin number.
-            This
-            is to ensure
-            that the user has the right to onboard the TIN used.
+            verified, a token will be sent via mail/sms to the mail and phone number connected to the tin number.
+            This is to ensure that the user has the right to onboard the TIN used.
           <p
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7'>
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7 text-justify leading-normal'>
             The initial action will lead you to the page where you
             fill in the token sent to the user via mail/sms and allow user
-            set their password, enter the Turing, accept terms and conditions and CLICK on GET STARTED. This will take
+            set their password, enter the Turing, accept terms and conditions and CLICK on GET STARTED.
+          <p
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7 text-justify leading-normal'>
+            This will take
             you to your dashboard which means you have successfully onboarded..
           </p>
           </p>
+          </p>
 
-          <img src="logos/signup.PNG" alt="" class='mt-4 lg:mt-10'>
+          <img src="images/ONBOARDING/ONBOARD.png" alt="" class='mt-4 lg:mt-10'>
         </div>
 
         <div class='pt-12 pb-32 lg:px-8 px-6'>
@@ -205,19 +200,28 @@
             class='text-gray-900 text-2xl md:text-2xlg lg:text-4xl xl:text-4xl font-mono pt-0 md:pt:6 lg:pt:8 xl:pt:10 font-semibold text-blue-600'>
             Sign In</h5>
           <p
-            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7'>
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7 text-justify'>
             If you have onboarded with your TIN before, you can go ahead and sign in by clicking LOGIN on the home
-            page without going through the onboarding process again. There is also an option provided for returning
-            users who forgot their password and wants to retrieve it on the home page. Successful onboarding takes you
+            page without going through the onboarding process again.
+          <p
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7 text-justify'>
+            There is also an option provided for returning
+            users who forgot their password and wants to retrieve it on the home page.
+          </p>
+          </p>
+          <p
+            class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans lg:pt-2 md:pt:6 lg:pt:8 font-medium leading-7 text-justify'>
+            Successful onboarding takes you
             to your dash board where you can view your account profile and history, file returns, payment options and
-            logout after use.</p>
+            logout after use.
+          </p>
           <img src="logos/login.PNG" alt="" class='mt-4 lg:mt-10'>
 
 
           <p
             class='text-black-300 text-md md:text-lg lg:text-xl xl:text-2xl font-sans pt-6 lg:pt-32 md:pt:6 lg:pt-8 font-medium leading-7'>
             Successful onboarding takes you
-            to your dash board where you can view your account profile and history, file returns, payment options and
+            to your dashboard where you can view your account profile and history, file returns, payment options and
             logout after use.</p>
           <img src="logos/dashboard.PNG" alt="" class='mt-4 lg:mt-10'>
         </div>
